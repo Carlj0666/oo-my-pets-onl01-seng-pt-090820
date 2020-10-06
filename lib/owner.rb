@@ -76,6 +76,7 @@ class Owner
     #   dogs.all.clear
       
     end
+  end
 
     
 
