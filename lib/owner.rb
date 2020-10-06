@@ -68,11 +68,12 @@ class Owner
     Cat.all.select do |cats|
       cats.mood = "nervous"
       #binding.pry
-      cats.owner = nil
+      cats.owner = ""
   end
     Dog.all.select do |dogs|
       dogs.mood = "nervous"
-      dogs.owner = nil
+      dogs.owner = ""
+    #   dogs.all.clear
       
     end
   end
