@@ -76,6 +76,6 @@ class Owner
     end
   end
 
-  def list_pets' for #<Owner:0x00000000019b6990 @name="Timmy", @species="human">
+  def list_pets
 
 end
