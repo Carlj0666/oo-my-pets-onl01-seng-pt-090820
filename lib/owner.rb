@@ -72,8 +72,7 @@ class Owner
   end
     Dog.all.select do |dogs|
       dogs.mood = "nervous"
-      dogs.owner = ""
-    #   dogs.all.clear
+      dogs.owner = nil
       
     end
   end
